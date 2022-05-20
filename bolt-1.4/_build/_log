@@ -1,0 +1,216 @@
+### Starting build.
+# Target: src/threads/boltThread.ml.depends, tags: { extension:ml, file:src/threads/boltThread.ml, include, ocaml, ocamldep, quiet, thread, warnings }
+/usr/bin/ocamldep.opt -modules src/threads/boltThread.ml > src/threads/boltThread.ml.depends # cached
+# Target: src/threads/boltThread.mli.depends, tags: { extension:mli, file:src/threads/boltThread.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/threads/boltThread.mli > src/threads/boltThread.mli.depends # cached
+# Target: src/threads/boltThread.cmi, tags: { byte, compile, extension:mli, file:src/threads/boltThread.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/threads -I src -I src/library -I src/syntax -I src/support -o src/threads/boltThread.cmi src/threads/boltThread.mli # cached
+# Target: src/library/mode.mli.depends, tags: { extension:mli, file:src/library/mode.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/mode.mli > src/library/mode.mli.depends # cached
+# Target: src/library/output.mli.depends, tags: { extension:mli, file:src/library/output.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/output.mli > src/library/output.mli.depends # cached
+# Target: src/library/layout.mli.depends, tags: { extension:mli, file:src/library/layout.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/layout.mli > src/library/layout.mli.depends # cached
+# Target: src/library/event.mli.depends, tags: { extension:mli, file:src/library/event.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/event.mli > src/library/event.mli.depends # cached
+# Target: src/library/level.mli.depends, tags: { extension:mli, file:src/library/level.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/level.mli > src/library/level.mli.depends # cached
+# Target: src/library/level.cmi, tags: { byte, compile, extension:mli, file:src/library/level.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/level.cmi src/library/level.mli # cached
+# Target: src/library/name.mli.depends, tags: { extension:mli, file:src/library/name.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/name.mli > src/library/name.mli.depends # cached
+# Target: src/library/name.cmi, tags: { byte, compile, extension:mli, file:src/library/name.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/name.cmi src/library/name.mli # cached
+# Target: src/library/event.cmi, tags: { byte, compile, extension:mli, file:src/library/event.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/event.cmi src/library/event.mli # cached
+# Target: src/library/layout.cmi, tags: { byte, compile, extension:mli, file:src/library/layout.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/layout.cmi src/library/layout.mli # cached
+# Target: src/library/signal.mli.depends, tags: { extension:mli, file:src/library/signal.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/signal.mli > src/library/signal.mli.depends # cached
+# Target: src/library/signal.cmi, tags: { byte, compile, extension:mli, file:src/library/signal.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/signal.cmi src/library/signal.mli # cached
+# Target: src/library/output.cmi, tags: { byte, compile, extension:mli, file:src/library/output.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/output.cmi src/library/output.mli # cached
+# Target: src/library/mode.cmi, tags: { byte, compile, extension:mli, file:src/library/mode.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/mode.cmi src/library/mode.mli # cached
+# Target: src/library/mode.ml.depends, tags: { extension:ml, file:src/library/mode.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/mode.ml > src/library/mode.ml.depends # cached
+# Target: src/library/mode.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/mode.cmo, file:src/library/mode.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/mode.cmo src/library/mode.ml # cached
+# Target: src/library/output.ml.depends, tags: { extension:ml, file:src/library/output.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/output.ml > src/library/output.ml.depends # cached
+# Target: src/library/utils.mli.depends, tags: { extension:mli, file:src/library/utils.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/utils.mli > src/library/utils.mli.depends # cached
+# Target: src/library/utils.cmi, tags: { byte, compile, extension:mli, file:src/library/utils.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/utils.cmi src/library/utils.mli # cached
+# Target: src/library/output.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/output.cmo, file:src/library/output.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/output.cmo src/library/output.ml # cached
+# Target: src/library/event.ml.depends, tags: { extension:ml, file:src/library/event.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/event.ml > src/library/event.ml.depends # cached
+# Target: src/library/event.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/event.cmo, file:src/library/event.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/event.cmo src/library/event.ml # cached
+# Target: src/library/layout.ml.depends, tags: { extension:ml, file:src/library/layout.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/layout.ml > src/library/layout.ml.depends # cached
+# Target: src/library/version.ml, tags: {  }
+cp /tmp/version816b67.ml src/library/version.ml
+# Target: src/library/version.mli.depends, tags: { extension:mli, file:src/library/version.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, src_library_version_ml, warnings }
+/usr/bin/ocamldep.opt -modules src/library/version.mli > src/library/version.mli.depends # cached
+# Target: src/library/version.cmi, tags: { byte, compile, extension:mli, file:src/library/version.mli, for-pack(Bolt), include, interf, ocaml, quiet, src_library_version_ml, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/version.cmi src/library/version.mli # cached
+# Target: src/library/layout.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/layout.cmo, file:src/library/layout.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/layout.cmo src/library/layout.ml # cached
+# Target: src/library/filter.mli.depends, tags: { extension:mli, file:src/library/filter.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/filter.mli > src/library/filter.mli.depends # cached
+# Target: src/library/filter.cmi, tags: { byte, compile, extension:mli, file:src/library/filter.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/filter.cmi src/library/filter.mli # cached
+# Target: src/library/filter.ml.depends, tags: { extension:ml, file:src/library/filter.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/filter.ml > src/library/filter.ml.depends # cached
+# Target: src/library/filter.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/filter.cmo, file:src/library/filter.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/filter.cmo src/library/filter.ml # cached
+# Target: src/library/configParser.mly, tags: { extension:mly, file:src/library/configParser.mly, for-pack(Bolt), include, infer, ocaml, ocamlyacc, parser, quiet }
+/usr/bin/ocamlyacc src/library/configParser.mly # cached
+# Target: src/library/configParser.mli.depends, tags: { extension:mli, file:src/library/configParser.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configParser.mli > src/library/configParser.mli.depends # cached
+# Target: src/library/configuration.mli.depends, tags: { extension:mli, file:src/library/configuration.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configuration.mli > src/library/configuration.mli.depends # cached
+# Target: src/library/configuration.cmi, tags: { byte, compile, extension:mli, file:src/library/configuration.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configuration.cmi src/library/configuration.mli # cached
+# Target: src/library/configParser.cmi, tags: { byte, compile, extension:mli, file:src/library/configParser.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configParser.cmi src/library/configParser.mli # cached
+# Target: src/library/configParser.ml.depends, tags: { extension:ml, file:src/library/configParser.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configParser.ml > src/library/configParser.ml.depends # cached
+# Target: src/library/configParser.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/configParser.cmo, file:src/library/configParser.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configParser.cmo src/library/configParser.ml # cached
+# Target: src/library/configuration.ml.depends, tags: { extension:ml, file:src/library/configuration.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configuration.ml > src/library/configuration.ml.depends # cached
+# Target: src/library/configuration.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/configuration.cmo, file:src/library/configuration.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configuration.cmo src/library/configuration.ml # cached
+# Target: src/library/tree.mli.depends, tags: { extension:mli, file:src/library/tree.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/tree.mli > src/library/tree.mli.depends # cached
+# Target: src/library/tree.cmi, tags: { byte, compile, extension:mli, file:src/library/tree.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/tree.cmi src/library/tree.mli # cached
+# Target: src/library/tree.ml.depends, tags: { extension:ml, file:src/library/tree.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/tree.ml > src/library/tree.ml.depends # cached
+# Target: src/library/tree.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/tree.cmo, file:src/library/tree.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/tree.cmo src/library/tree.ml # cached
+# Target: src/library/level.ml.depends, tags: { extension:ml, file:src/library/level.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/level.ml > src/library/level.ml.depends # cached
+# Target: src/library/level.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/level.cmo, file:src/library/level.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/level.cmo src/library/level.ml # cached
+# Target: src/library/utils.ml.depends, tags: { extension:ml, file:src/library/utils.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/utils.ml > src/library/utils.ml.depends # cached
+# Target: src/library/utils.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/utils.cmo, file:src/library/utils.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/utils.cmo src/library/utils.ml # cached
+# Target: src/library/configurationOld.mli.depends, tags: { extension:mli, file:src/library/configurationOld.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configurationOld.mli > src/library/configurationOld.mli.depends # cached
+# Target: src/library/configurationOld.cmi, tags: { byte, compile, extension:mli, file:src/library/configurationOld.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationOld.cmi src/library/configurationOld.mli # cached
+# Target: src/library/configurationOld.ml.depends, tags: { extension:ml, file:src/library/configurationOld.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configurationOld.ml > src/library/configurationOld.ml.depends # cached
+# Target: src/library/configurationOld.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/configurationOld.cmo, file:src/library/configurationOld.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationOld.cmo src/library/configurationOld.ml # cached
+# Target: src/library/configurationNew.mli.depends, tags: { extension:mli, file:src/library/configurationNew.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configurationNew.mli > src/library/configurationNew.mli.depends # cached
+# Target: src/library/configurationNew.cmi, tags: { byte, compile, extension:mli, file:src/library/configurationNew.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationNew.cmi src/library/configurationNew.mli # cached
+# Target: src/library/configurationNew.ml.depends, tags: { extension:ml, file:src/library/configurationNew.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configurationNew.ml > src/library/configurationNew.ml.depends # cached
+# Target: src/library/configLexer.mll, tags: { extension:mll, file:src/library/configLexer.mll, for-pack(Bolt), include, lexer, ocaml, ocamllex, quiet }
+/usr/bin/ocamllex.opt -q src/library/configLexer.mll # cached
+# Target: src/library/configLexer.ml.depends, tags: { extension:ml, file:src/library/configLexer.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/configLexer.ml > src/library/configLexer.ml.depends # cached
+# Target: src/library/configLexer.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/configLexer.cmo, file:src/library/configLexer.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configLexer.cmo src/library/configLexer.ml # cached
+# Target: src/library/configurationNew.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/configurationNew.cmo, file:src/library/configurationNew.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationNew.cmo src/library/configurationNew.ml # cached
+# Target: src/library/logger.mli.depends, tags: { extension:mli, file:src/library/logger.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/logger.mli > src/library/logger.mli.depends # cached
+# Target: src/library/logger.cmi, tags: { byte, compile, extension:mli, file:src/library/logger.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/logger.cmi src/library/logger.mli # cached
+# Target: src/library/logger.ml.depends, tags: { extension:ml, file:src/library/logger.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/logger.ml > src/library/logger.ml.depends # cached
+# Target: src/library/logger.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/logger.cmo, file:src/library/logger.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/logger.cmo src/library/logger.ml # cached
+# Target: src/library/version.ml.depends, tags: { extension:ml, file:src/library/version.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/version.ml > src/library/version.ml.depends # cached
+# Target: src/library/version.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/version.cmo, file:src/library/version.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/version.cmo src/library/version.ml # cached
+# Target: src/library/name.ml.depends, tags: { extension:ml, file:src/library/name.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/name.ml > src/library/name.ml.depends # cached
+# Target: src/library/name.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/name.cmo, file:src/library/name.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/name.cmo src/library/name.ml # cached
+# Target: src/library/signal.ml.depends, tags: { extension:ml, file:src/library/signal.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/library/signal.ml > src/library/signal.ml.depends # cached
+# Target: src/library/signal.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/library/signal.cmo, file:src/library/signal.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/signal.cmo src/library/signal.ml # cached
+# Target: src/support/log4j.mli.depends, tags: { extension:mli, file:src/support/log4j.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/log4j.mli > src/support/log4j.mli.depends # cached
+# Target: src/support/log4j.cmi, tags: { byte, compile, extension:mli, file:src/support/log4j.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/log4j.cmi src/support/log4j.mli # cached
+# Target: src/support/log4j.ml.depends, tags: { extension:ml, file:src/support/log4j.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/log4j.ml > src/support/log4j.ml.depends # cached
+# Target: src/support/log4j.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/support/log4j.cmo, file:src/support/log4j.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/log4j.cmo src/support/log4j.ml # cached
+# Target: src/support/paje.mli.depends, tags: { extension:mli, file:src/support/paje.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/paje.mli > src/support/paje.mli.depends # cached
+# Target: src/support/paje.cmi, tags: { byte, compile, extension:mli, file:src/support/paje.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/paje.cmi src/support/paje.mli # cached
+# Target: src/support/paje.ml.depends, tags: { extension:ml, file:src/support/paje.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/paje.ml > src/support/paje.ml.depends # cached
+# Target: src/support/paje.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/support/paje.cmo, file:src/support/paje.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/paje.cmo src/support/paje.ml # cached
+# Target: src/support/daikon.mli.depends, tags: { extension:mli, file:src/support/daikon.mli, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/daikon.mli > src/support/daikon.mli.depends # cached
+# Target: src/support/daikon.cmi, tags: { byte, compile, extension:mli, file:src/support/daikon.mli, for-pack(Bolt), include, interf, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/daikon.cmi src/support/daikon.mli # cached
+# Target: src/support/daikon.ml.depends, tags: { extension:ml, file:src/support/daikon.ml, for-pack(Bolt), include, ocaml, ocamldep, quiet, warnings }
+/usr/bin/ocamldep.opt -modules src/support/daikon.ml > src/support/daikon.ml.depends # cached
+# Target: src/support/daikon.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:src/support/daikon.cmo, file:src/support/daikon.ml, for-pack(Bolt), implem, include, ocaml, quiet, warnings }
+/usr/bin/ocamlc.opt -c -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/daikon.cmo src/support/daikon.ml # cached
+# Target: bolt.cmo, tags: { byte, extension:cmo, file:bolt.cmo, ocaml, pack, quiet }
+/usr/bin/ocamlc.opt -pack src/library/level.cmo src/library/utils.cmo src/library/name.cmo src/library/event.cmo src/library/version.cmo src/library/layout.cmo src/library/signal.cmo src/library/output.cmo src/library/mode.cmo src/library/filter.cmo src/library/configuration.cmo src/library/configParser.cmo src/library/tree.cmo src/library/configurationOld.cmo src/library/configLexer.cmo src/library/configurationNew.cmo src/library/logger.cmo src/support/log4j.cmo src/support/paje.cmo src/support/daikon.cmo -o bolt.cmo # cached
+# Target: src/library/level.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/level.cmx, file:src/library/level.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/level.cmx src/library/level.ml # cached
+# Target: src/library/utils.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/utils.cmx, file:src/library/utils.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/utils.cmx src/library/utils.ml # cached
+# Target: src/library/name.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/name.cmx, file:src/library/name.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/name.cmx src/library/name.ml # cached
+# Target: src/library/event.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/event.cmx, file:src/library/event.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/event.cmx src/library/event.ml # cached
+# Target: src/library/version.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/version.cmx, file:src/library/version.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/version.cmx src/library/version.ml # cached
+# Target: src/library/layout.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/layout.cmx, file:src/library/layout.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/layout.cmx src/library/layout.ml # cached
+# Target: src/library/signal.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/signal.cmx, file:src/library/signal.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/signal.cmx src/library/signal.ml # cached
+# Target: src/library/output.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/output.cmx, file:src/library/output.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/output.cmx src/library/output.ml # cached
+# Target: src/library/mode.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/mode.cmx, file:src/library/mode.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/mode.cmx src/library/mode.ml # cached
+# Target: src/library/filter.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/filter.cmx, file:src/library/filter.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/filter.cmx src/library/filter.ml # cached
+# Target: src/library/configuration.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/configuration.cmx, file:src/library/configuration.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configuration.cmx src/library/configuration.ml # cached
+# Target: src/library/configParser.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/configParser.cmx, file:src/library/configParser.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configParser.cmx src/library/configParser.ml # cached
+# Target: src/library/tree.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/tree.cmx, file:src/library/tree.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/tree.cmx src/library/tree.ml # cached
+# Target: src/library/configurationOld.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/configurationOld.cmx, file:src/library/configurationOld.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationOld.cmx src/library/configurationOld.ml # cached
+# Target: src/library/configLexer.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/configLexer.cmx, file:src/library/configLexer.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configLexer.cmx src/library/configLexer.ml # cached
+# Target: src/library/configurationNew.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/configurationNew.cmx, file:src/library/configurationNew.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/configurationNew.cmx src/library/configurationNew.ml # cached
+# Target: src/library/logger.cmx, tags: { compile, extension:cmx, extension:ml, file:src/library/logger.cmx, file:src/library/logger.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/library -I src -I src/syntax -I src/threads -I src/support -o src/library/logger.cmx src/library/logger.ml # cached
+# Target: src/support/log4j.cmx, tags: { compile, extension:cmx, extension:ml, file:src/support/log4j.cmx, file:src/support/log4j.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/log4j.cmx src/support/log4j.ml # cached
+# Target: src/support/paje.cmx, tags: { compile, extension:cmx, extension:ml, file:src/support/paje.cmx, file:src/support/paje.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/paje.cmx src/support/paje.ml # cached
+# Target: src/support/daikon.cmx, tags: { compile, extension:cmx, extension:ml, file:src/support/daikon.cmx, file:src/support/daikon.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, warnings }
+/usr/bin/ocamlopt.opt -c -for-pack Bolt -I src/support -I src -I src/library -I src/syntax -I src/threads -o src/support/daikon.cmx src/support/daikon.ml # cached
+# Target: bolt.cmx, tags: { extension:cmx, file:bolt.cmx, native, ocaml, pack, quiet }
+touch bolt.mli  ; if  /usr/bin/ocamlopt.opt -pack -I src/library -I src/support src/library/level.cmx src/library/utils.cmx src/library/name.cmx src/library/event.cmx src/library/version.cmx src/library/layout.cmx src/library/signal.cmx src/library/output.cmx src/library/mode.cmx src/library/filter.cmx src/library/configuration.cmx src/library/configParser.cmx src/library/tree.cmx src/library/configurationOld.cmx src/library/configLexer.cmx src/library/configurationNew.cmx src/library/logger.cmx src/support/log4j.cmx src/support/paje.cmx src/support/daikon.cmx -o bolt.cmx  ; then  rm -f bolt.mli  ; else  rm -f bolt.mli  ; exit 1; fi # cached
+# Target: src/threads/boltThread.cmx, tags: { compile, extension:cmx, extension:ml, file:src/threads/boltThread.cmx, file:src/threads/boltThread.ml, for-pack(Bolt), implem, include, native, ocaml, quiet, thread, warnings }
+/usr/bin/ocamlopt.opt -c -thread -for-pack Bolt -I src/threads -I src -I src/library -I src/syntax -I src/support -o src/threads/boltThread.cmx src/threads/boltThread.ml
+# Compilation successful.
